@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Fraunces Bold", sans-serif;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    column-gap: 33px;
+}
+.menu-link,
+.footer__menu-2__menu-link{
+    text-decoration: none;
+    color: #888888;
+    font-size: 12px;
+    line-height: 15px;
+}
+.section-1{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/create.png);
+    padding: 134px 85px;
+    margin-bottom: 168px;
+}
+.section-1__title{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+.section-1__text{
+    width: 445px;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+.section-3{
+    margin-top: 350px;
+    width: 100%;
+    background-color: #2C343E;
+}
+.section-3__text{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.section-3__card__oval{
+    display: flex;
+    align-items: center;
+}
+.section-3__card__oval__ovals{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+}
+.section-3__card__oval__line{
+    display: inline-block;
+    width: 349px;
+    height: 2px;
+    background-color: #FDD6BA;
+}
+.section-3__card__card-1{
+    width: 285px;
+}
+.section-3__card__card-1__number{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+.section-3__card__card-1__title{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 42px;
+}
+.section-3__card__card-1__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.section-3__card{
+    display: flex;
+    column-gap: 95px;
+    margin-top: 67px;
+}
